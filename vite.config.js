@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: "./build/app/", // Specify the output directory for the build process, defaults to 'dist'
+    outDir: "./dist/", // Specify the output directory for the build process, defaults to 'dist'
     sourcemap: true,
   },
 });

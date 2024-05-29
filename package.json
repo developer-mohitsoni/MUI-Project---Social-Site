@@ -9,7 +9,7 @@
     "watch": "vite build --watch --mode development",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "serve": "serve -s build/app"
+    "serve": "serve -s dist"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
